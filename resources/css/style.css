@@ -9,6 +9,7 @@ body {
 	font-family: "acme";
 	box-sizing: border-box;
 	max-width: 1200px;
+	font-size: 1.2em;
 }
 
 h1 {
@@ -33,7 +34,7 @@ header {
 }
 
 nav {
-
+	padding-right: 30px;
 }
 
 nav ul {
@@ -44,6 +45,28 @@ nav li {
 	display: inline-block;
 	padding: 0 20px;
 	font-size: 1.3em;
+}
+
+main {
+	display: flex;
+	justify-content: space-between;
+}
+
+#about {
+	width: 50%;
+	text-align: justify;
+	padding-left: 30px;
+}
+
+#photo {
+	width: 50%;
+	text-align: right;
+}
+
+#photo img {
+	height: 600px;
+	border: 5px solid white;
+	border-radius: 10px;
 }
 
 footer {
