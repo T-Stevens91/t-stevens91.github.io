@@ -1,2 +1,53 @@
+@font-face {
+	font-family: "acme";
+	src: url("../font/Acme/Acme-Regular.ttf");
+}
 
+body {
+	background-color: black;
+	color: white;
+	font-family: "acme";
+	box-sizing: border-box;
+	max-width: 1200px;
+}
 
+h1 {
+	padding-left: 20px;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+}
+
+a:hover {
+	color: lime;
+}
+
+header {
+	padding: 10px;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+nav {
+
+}
+
+nav ul {
+	list-style: none;
+}
+
+nav li {
+	display: inline-block;
+	padding: 0 20px;
+	font-size: 1.3em;
+}
+
+footer {
+	text-align: center;
+	width: 100%;
+	padding: 15px;
+}
