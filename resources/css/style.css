@@ -78,6 +78,42 @@ article {
 	border-radius: 10px;
 }
 
+.accordion {
+  background-color: rgba(0,100,0,0.40);
+  font-family: "acme";
+  font-size: 1em;
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  text-align: left;
+  border: 1px solid white;
+  border-bottom: none;
+  outline: none;
+  transition: 0.4s;
+  border-radius: 10px 10px 0 0;
+}
+
+.accordion:hover {
+  background-color: lime;
+}
+
+.panel {
+  padding: 0 18px;
+  background-color: white;
+  display: none;
+  overflow: hidden;
+  border: 1px solid white;
+  border-radius: 0 0 10px 10px;
+  border-top: none;
+}
+
+.screenshot {
+	height: 150px;
+	border: 2px solid white;
+	border-radius: 2px;
+}
+
 footer {
 	text-align: center;
 	width: 100%;
@@ -90,18 +126,21 @@ footer {
 		padding: 0;
 	}
 	h1 {
-		padding-left: 10%;
+		text-align: center;
+		padding: 3% 0;
 	}
 	nav {
-		padding: 0;
+		padding-left: 0;
 		text-align: center;
 	}
 	nav li{
 		display: block;
+		padding-left: 0;
 	}
 	main {
 		width: 100%;
 		display: block;
+		padding-top: 2%;
 	}
 	article {
 		width: 90%;
