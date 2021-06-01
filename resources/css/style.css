@@ -59,12 +59,20 @@ article {
 	padding-left: 30px;
 }
 
-#photo {
+.skillsList {
+	list-style: square;
+}
+
+.plainList {
+	list-style: none;
+}
+
+.photo {
 	width: 50%;
 	text-align: right;
 }
 
-#photo img {
+.photo img {
 	height: 600px;
 	border: 5px solid white;
 	border-radius: 10px;
@@ -101,11 +109,14 @@ footer {
 		padding: 0 5% 0 5%;
 		display: block;
 	}
-	#photo {
+	.photo {
 		width:100%;
 		margin: 0 auto;
 		padding: 0;
 		display: block;
 		text-align: center;
+	}
+	.optional {
+		display: none;
 	}
 }
